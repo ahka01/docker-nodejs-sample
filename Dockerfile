@@ -1,7 +1,5 @@
 # syntax=docker/dockerfile:1
 
-ARG NODE_VERSION=18.0.0
-
 FROM mcr.microsoft.com/devcontainers/javascript-node:1-18-bullseye as base
 WORKDIR /usr/src/app
 EXPOSE 3000
